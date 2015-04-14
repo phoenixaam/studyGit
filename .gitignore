@@ -8,3 +8,51 @@ log/*.log.[0-9]
 assets/photoshop/
 assets/videos/
 !assets/videos/tour_*.mp4
+
+
+
+# what we could ignore
+#
+# compiled source files
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+ 
+# packages and compressed files
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# logs and databases
+######################
+*.log
+*.sql
+*.sqlite
+
+# operating system genegated files
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# user-uploaded assets (images, PDFs, videos)
+
+# see also:  help.github.com/articles/ignoring-files
+
